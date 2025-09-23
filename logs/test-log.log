@@ -1,0 +1,21 @@
+2025-05-15 14:41:44 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-05-16 00:30:31 [main] ERROR utilities.LoggerHelper - Kart bilgileri girişi yapılamadı!
+2025-05-16 00:33:35 [main] ERROR utilities.LoggerHelper - Kart bilgileri girişi yapılamadı!
+2025-05-16 00:38:49 [main] ERROR utilities.LoggerHelper - Kart bilgileri girişi yapılamadı!
+2025-05-16 00:48:21 [main] ERROR utilities.LoggerHelper - Kart bilgileri girişi yapılamadı!
+2025-05-16 00:53:23 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 1127 CVC olarak 123 Zip Code olarak 11111 girer.
+2025-05-16 00:56:57 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 1127 CVC olarak 123 Zip Code olarak 11111 girer.
+2025-05-16 01:16:43 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 01:19:01 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 01:26:59 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 01:36:07 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 14:10:53 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 14:16:29 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 14:19:33 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 14:29:26 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 15:14:25 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 15:24:03 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 15:28:53 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 15:31:29 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 15:35:22 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.
+2025-05-16 15:46:25 [main] INFO  utilities.LoggerHelper - Kullanıcı Card Number olarak 4242424242424242 MM/YY olarak 0230 CVC olarak 522 Zip Code olarak 48800 girer.

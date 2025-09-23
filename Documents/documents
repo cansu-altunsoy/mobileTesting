@@ -1,0 +1,59 @@
+
+QueryCartMobileTest/
+
+│   ├── Apps/
+
+│   ├── Documents/
+
+│   ├── logs/
+
+├── src/
+
+│   ├── main/
+
+│   │   └── java/
+
+│   │       ├── config/
+
+│   │       ├── drivers/
+
+│   │       ├── pages/
+
+│   │       ├── pagesBrowser/
+
+│   │       ├── utilities/
+
+│   │       ├── resources/
+                ├── configuration.properties/
+│   │           └── log4j2.xml/
+
+│   ├── test/
+│   │   └── java/
+│   │       ├── runners/
+│   │       └── stepDefinitions/
+                └── FULL-TST-001
+│               └── FULL-TST-002
+│               └── FULL-TST-003
+│               └── FULL-TST-004
+│               └── FULL-TST-005
+│               └── FULL-TST-006
+│               └── FULL-TST-007
+│               └── FULL-TST-008
+│
+│
+├── resources/
+│   ├── features/
+│       └── FULL-TST-001
+│       └── FULL-TST-002
+│       └── FULL-TST-003
+│       └── FULL-TST-004
+│       └── FULL-TST-005
+│       └── FULL-TST-006
+│       └── FULL-TST-007
+│       └── FULL-TST-008
+│
+├── pom.xml
+
+
+
+
