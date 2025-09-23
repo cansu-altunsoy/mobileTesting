@@ -17,8 +17,8 @@ import org.junit.runner.RunWith;
         tags = "@E2E" ,
         dryRun = false
 
-
 )
+
 public class Runner {
 
     private static final Logger logger = LogManager.getLogger(Runner.class);
