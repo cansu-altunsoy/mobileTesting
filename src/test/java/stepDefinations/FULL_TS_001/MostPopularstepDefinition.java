@@ -21,7 +21,6 @@ public class MostPopularstepDefinition {
 
     }
 
-
     @And("User logs into the application with {string} and {string} password")
     public void userLogsIntoTheApplicationWithAndPassword(String email, String password) {
 
@@ -35,7 +34,6 @@ public class MostPopularstepDefinition {
         Assert.assertTrue(mostPopularPage.mostPopularText.isDisplayed());
 
     }
-
 
     @And("User shuts down the system")
     public void userShutsDownTheSystem() throws InterruptedException {
