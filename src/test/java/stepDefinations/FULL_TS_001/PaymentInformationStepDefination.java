@@ -12,7 +12,7 @@ import javax.sound.midi.InvalidMidiDataException;
 
 import static drivers.Driver.getAppiumDriver;
 
-public class PaymentInformationStepDefinition {
+public class PaymentInformationStepDefination {
 
 
     PaymentInformationPage paymentInformationPage = new PaymentInformationPage();
