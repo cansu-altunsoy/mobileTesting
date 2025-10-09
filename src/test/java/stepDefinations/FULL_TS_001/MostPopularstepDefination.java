@@ -9,7 +9,7 @@ import utilities.ReusableMethods;
 
 import static drivers.Driver.getAppiumDriver;
 
-public class MostPopularstepDefinition {
+public class MostPopularstepDefination {
 
 
     MostPopularPage mostPopularPage = new MostPopularPage();
