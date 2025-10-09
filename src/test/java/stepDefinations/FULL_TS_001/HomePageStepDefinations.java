@@ -12,7 +12,7 @@ import javax.sound.midi.InvalidMidiDataException;
 import static drivers.Driver.getAppiumDriver;
 
 
-public class HomaPageStepDefinations {
+public class HomePageStepDefinations {
 
    HomePage homePage =new pages.HomePage();
 
