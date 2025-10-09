@@ -11,7 +11,7 @@ import utilities.ReusableMethods;
 import static drivers.Driver.getAppiumDriver;
 
 
-public class DashboardstepDefinition {
+public class DashboardstepDefination {
 
 
     Actions actions = new Actions(getAppiumDriver());
