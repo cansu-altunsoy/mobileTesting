@@ -1,4 +1,4 @@
-package stepDefinations.FULL_TS_001;
+package pages;
 
 
 import io.appium.java_client.AppiumBy;
@@ -14,8 +14,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.FavouritesPage;
-import pages.ForgotPasswordPage;
-import pages.OrderHistoryPage;
 import utilities.LoggerHelper;
 import utilities.ReusableMethods;
 
@@ -39,7 +37,7 @@ public class OrderHistoryPage {
     @When("User clicks the new password field and sends {string}")
     public void user_clicks_the_new_password_field_and_sends(String password) {
 
-        assertTrue(forgotPasswordPage.newPasswordTextBox.isDisplayed());
+        Assert.assertTrue(forgotPasswordPage.newPasswordTextBox.isDisplayed());
         forgotPasswordPage.newPasswordTextBox.click();
         forgotPasswordPage.newPasswordTextBox.sendKeys(password);
 
@@ -50,7 +48,7 @@ public class OrderHistoryPage {
     @When("User clicks the confirm password field and sends {string}")
     public void user_clicks_the_confirm_password_field_and_sends(String password) {
 
-        assertTrue(forgotPasswordPage.confirmPasswordTextBox.isDisplayed());
+        Assert.assertTrue(forgotPasswordPage.confirmPasswordTextBox.isDisplayed());
         forgotPasswordPage.confirmPasswordTextBox.click();
         forgotPasswordPage.confirmPasswordTextBox.sendKeys(password);
 
@@ -82,7 +80,7 @@ public class OrderHistoryPage {
 
     @When("User clicks the phone field and sends {string}")
     public void user_clicks_the_phone_field_and_sends(String phoneNumber) {
-        assertTrue(forgotPasswordPage.phoneTextBox.isDisplayed());
+        Assert.assertTrue(forgotPasswordPage.phoneTextBox.isDisplayed());
         forgotPasswordPage.phoneTextBox.click();
         forgotPasswordPage.phoneTextBox.sendKeys(phoneNumber);
         loggerHelper.info("User clicks the phone field and sends Phone Number");
@@ -154,7 +152,7 @@ public class OrderHistoryPage {
     public void user_enters_valid_credentials_to_log_in() {
 
         ReusableMethods.wait(3);
-        assertTrue(favouritesPage.phoneTextBox.isDisplayed());
+        Assert.assertTrue(favouritesPage.phoneTextBox.isDisplayed());
         favouritesPage.phoneTextBox.click();
         favouritesPage.phoneTextBox.sendKeys("1122334455");
         // Telefon numarası alanından sonra Tab ile şifre alanına geç
