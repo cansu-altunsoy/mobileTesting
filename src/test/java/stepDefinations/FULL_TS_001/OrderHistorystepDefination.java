@@ -15,7 +15,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.FavouritesPage;
 import pages.ForgotPasswordPage;
-import pages.OrderHistoryPage;
 import utilities.LoggerHelper;
 import utilities.ReusableMethods;
 
