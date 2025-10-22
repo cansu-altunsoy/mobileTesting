@@ -26,11 +26,13 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @And("Click on your profile icon.")
     public void click_on_your_profile_icon() {
         loginPage.ProfileButton.click();
         ReusableMethods.wait(2);
     }
+
 
     @Then("Verifies that the sign up button is visible and active.")
     public void verifies_that_the_sign_up_button_is_visible_and_active() {
@@ -38,6 +40,7 @@ public class MyPageStepDefination {
         Assert.assertTrue(loginPage.SignUpButton.isEnabled());
         ReusableMethods.wait(2);
     }
+
 
     @Given("Click on your sign up icon.")
     public void click_on_your_sign_up_icon() {
@@ -130,11 +133,13 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @Then("Added to wishlist verify warning text.")
     public void added_to_wishlist_verify_warning_text() {
         Assert.assertTrue(myStepsPage.wishlistComeWarningMessage.isDisplayed());
         ReusableMethods.wait(2);
     }
+
 
     @And("Enter a valid user email in the email box.")
     public void enterAValidUserEmailInTheEmailBox() {
