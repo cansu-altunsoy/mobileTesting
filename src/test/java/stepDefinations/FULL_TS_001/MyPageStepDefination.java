@@ -48,6 +48,7 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @Given("Click the name box and enter any name.")
     public void click_the_name_box_and_enter_any_name() {
         myStepsPage.nameBox.click();
@@ -55,11 +56,13 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @When("Click on the use email instead link.")
     public void click_on_the_use_email_instead_link() {
         myStepsPage.emailInsteadButton.click();
         ReusableMethods.wait(2);
     }
+
 
     @When("Enter a valid email in the email box.")
     public void enter_a_valid_email_in_the_email_box() {
@@ -68,6 +71,7 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @When("Enter a valid password in the password box.")
     public void enter_a_valid_password_in_the_password_box() {
         myStepsPage.passwordBox.click();
@@ -75,11 +79,13 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @When("Click the sign up button.")
     public void click_the_sign_up_button() {
         myStepsPage.signUpButtonLink.click();
         ReusableMethods.wait(2);
     }
+
 
     @Then("Verify that the message user created successfully is displayed.")
     public void verify_that_the_message_user_created_successfully_is_displayed() {
