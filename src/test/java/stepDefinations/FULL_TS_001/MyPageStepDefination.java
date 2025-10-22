@@ -93,6 +93,7 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @When("Enter an invalid email in the Email box.")
     public void enter_an_invalid_email_in_the_email_box() {
         myStepsPage.emailBox.click();
@@ -100,11 +101,13 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @Then("Verify that the sign up button is not active.")
     public void verify_that_the_sign_up_button_is_not_active() {
         Assert.assertFalse(myStepsPage.signUpButtonLink.isSelected());
         ReusableMethods.wait(2);
     }
+
 
     @When("Enter a invalid password in the password box.")
     public void enter_a_invalid_password_in_the_password_box() {
@@ -113,11 +116,13 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
+
     @Then("Verify the error message above due to invalid password entry.")
     public void verify_the_error_message_above_due_to_invalid_password_entry() {
         Assert.assertTrue(myStepsPage.errorMessage.isDisplayed());
         ReusableMethods.wait(2);
     }
+
 
     @Given("Click on your sign in icon.")
     public void click_on_your_sign_in_icon() {
