@@ -151,7 +151,6 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
-
     @And("Enter a valid user email in the email box.")
     public void enterAValidUserEmailInTheEmailBox() {
         myStepsPage.nameBox.click();
@@ -172,7 +171,6 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
-
     @When("While on the product page, remove the product from your favorites by scrolling down.")
     public void while_on_the_product_page_remove_the_product_from_your_favorites_by_scrolling_down() {
         ReusableMethods.ekranKaydirmaMethoduOguz(485, 1736, 485, 669, 1000);
@@ -180,7 +178,6 @@ public class MyPageStepDefination {
         myStepsPage.relevantFavorite.click();
         ReusableMethods.wait(2);
     }
-
 
     @Then("verify the warning message that the product has been removed from the wishlist.")
     public void verify_the_warning_message_that_the_product_has_been_removed_from_the_wishlist() {
@@ -193,7 +190,6 @@ public class MyPageStepDefination {
         myStepsPage.relevantFavorite.click();
         ReusableMethods.wait(2);
     }
-
 
     @Then("Verify that the women category and subheadings are displayed in the categories section on the homepage.")
     public void verify_that_the_women_category_and_subheadings_are_displayed_in_the_categories_section_on_the_homepage() {
