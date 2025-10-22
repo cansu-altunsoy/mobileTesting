@@ -45,7 +45,6 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
-
     @Given("Click the name box and enter any name.")
     public void click_the_name_box_and_enter_any_name() {
         myStepsPage.nameBox.click();
@@ -59,7 +58,6 @@ public class MyPageStepDefination {
         myStepsPage.emailInsteadButton.click();
         ReusableMethods.wait(2);
     }
-
 
     @When("Enter a valid email in the email box.")
     public void enter_a_valid_email_in_the_email_box() {
@@ -120,7 +118,6 @@ public class MyPageStepDefination {
         ReusableMethods.wait(2);
     }
 
-
     @Given("Click on your sign in icon.")
     public void click_on_your_sign_in_icon() {
         myStepsPage.profileSignInButton.click();
@@ -140,7 +137,6 @@ public class MyPageStepDefination {
         myStepsPage.homepageSecondHeart.click();
         ReusableMethods.wait(2);
     }
-
 
     @Then("Added to wishlist verify warning text.")
     public void added_to_wishlist_verify_warning_text() {
