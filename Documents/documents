@@ -32,25 +32,12 @@ QueryCartMobileTest/
 │   │       ├── runners/
 │   │       └── stepDefinitions/
                 └── FULL-TST-001
-│               └── FULL-TST-002
-│               └── FULL-TST-003
-│               └── FULL-TST-004
-│               └── FULL-TST-005
-│               └── FULL-TST-006
-│               └── FULL-TST-007
-│               └── FULL-TST-008
 │
 │
 ├── resources/
 │   ├── features/
 │       └── FULL-TST-001
-│       └── FULL-TST-002
-│       └── FULL-TST-003
-│       └── FULL-TST-004
-│       └── FULL-TST-005
-│       └── FULL-TST-006
-│       └── FULL-TST-007
-│       └── FULL-TST-008
+│
 │
 ├── pom.xml
 
