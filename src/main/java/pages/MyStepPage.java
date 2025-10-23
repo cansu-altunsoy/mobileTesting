@@ -35,11 +35,14 @@ public class MyStepPage {
     @AndroidFindBy(xpath = "//android.widget.ImageView")
     public WebElement errorMessage;
 
+
     @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Sign In\"]")
     public WebElement profileSignInButton;
 
+
     @AndroidFindBy(xpath = "//*[@text='Don’t allow']")
     public WebElement maybeDontAllow;
+
 
     @AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.ImageView\").instance(2)")
     public WebElement homepageFirstHeart;
