@@ -44,11 +44,14 @@ public class MyStepPage {
     @AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.ImageView\").instance(2)")
     public WebElement homepageFirstHeart;
 
+
     @AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.ImageView\").instance(9)")
     public WebElement homepageSecondHeart;
 
+
     @AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.ImageView\").instance(0)")
     public WebElement wishlistComeWarningMessage;
+
 
     @AndroidFindBy(xpath = "(//android.view.View)[19]")
     public WebElement relevantProduct;
