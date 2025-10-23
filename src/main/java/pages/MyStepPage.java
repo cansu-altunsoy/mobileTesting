@@ -23,14 +23,18 @@ public class MyStepPage {
     @AndroidFindBy(xpath = "(//android.widget.EditText)[2]")
     public WebElement emailBox;
 
+
     @AndroidFindBy(xpath = "(//android.widget.EditText)[3]")
     public WebElement passwordBox;
+
 
     @AndroidFindBy(xpath = "(//android.view.View[@content-desc=\"Sign Up\"])[2]")
     public WebElement signUpButtonLink;
 
+
     @AndroidFindBy(xpath = "(//android.widget.ImageView)[1]")
     public WebElement successfullyMessage;
+
 
     @AndroidFindBy(xpath = "//android.widget.ImageView")
     public WebElement errorMessage;
