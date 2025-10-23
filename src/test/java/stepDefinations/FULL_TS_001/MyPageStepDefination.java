@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.interactions.Actions;
 import pages.LoginPage;
-import pages.US_07_11_15_Pages;
+import pages.MyStepPage;
 import utilities.ReusableMethods;
 
 import static drivers.Driver.getAppiumDriver;
@@ -17,7 +17,7 @@ public class MyPageStepDefination {
 
     Actions actions = new Actions(getAppiumDriver());
     LoginPage loginPage = new LoginPage();
-    US_07_11_15_Pages myStepsPage = new US_07_11_15_Pages();
+    MyStepPage myStepsPage = new MyStepPage();
 
     @Then("Verifies that the profile button is visible and active.")
     public void verifies_that_the_profile_button_is_visible_and_active() {
