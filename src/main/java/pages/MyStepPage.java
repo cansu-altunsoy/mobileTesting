@@ -67,6 +67,7 @@ public class MyStepPage {
     @AndroidFindBy(uiAutomator = "new UiSelector().description(\"Favorite\")")
     public WebElement relevantFavorite;
 
+
     @AndroidFindBy(uiAutomator = "new UiSelector().description(\"Women\")")
     public WebElement homepageScrollWomenCategory;
 
