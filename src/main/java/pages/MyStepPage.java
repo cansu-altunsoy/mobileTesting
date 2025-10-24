@@ -59,14 +59,11 @@ public class MyStepPage {
     @AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.ImageView\").instance(0)")
     public WebElement wishlistComeWarningMessage;
 
-
     @AndroidFindBy(xpath = "(//android.view.View)[19]")
     public WebElement relevantProduct;
 
-
     @AndroidFindBy(uiAutomator = "new UiSelector().description(\"Favorite\")")
     public WebElement relevantFavorite;
-
 
     @AndroidFindBy(uiAutomator = "new UiSelector().description(\"Women\")")
     public WebElement homepageScrollWomenCategory;
