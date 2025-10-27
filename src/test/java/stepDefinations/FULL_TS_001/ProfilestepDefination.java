@@ -13,7 +13,7 @@ import static drivers.Driver.getAppiumDriver;
 import static drivers.Driver.quitAppiumDriver;
 
 
-public class LoginstepDefination extends OptionsMethods {
+public class ProfilestepDefination extends OptionsMethods {
 
     Actions actions = new Actions(getAppiumDriver());
     US01_02_03Page us01_02_03Page = new US01_02_03Page();
