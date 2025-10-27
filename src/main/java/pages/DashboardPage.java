@@ -96,7 +96,6 @@ public class DashboardPage {
 
     }
 
-
     public void passwordChange( String oldPassword, String newPassword, String confirmPassword ) {
         oldPasswordBox.click();
         oldPasswordBox.sendKeys(ConfigReader.getProperty(oldPassword));
@@ -109,8 +108,5 @@ public class DashboardPage {
         ReusableMethods.wait(2);
 
     }
-
-
-
 
 }
