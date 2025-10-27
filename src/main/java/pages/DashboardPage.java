@@ -19,7 +19,6 @@ public class DashboardPage {
 
     }
 
-
     Actions actions = new Actions(getAppiumDriver());
 
 
@@ -55,9 +54,6 @@ public class DashboardPage {
 
     @AndroidFindBy(uiAutomator = "new UiSelector().description(\"Please type confirm password\")")
     public WebElement confirmPasswordControl;
-
-
-
 
 
     public void oldPasswordEmptyClick( String newPassword, String confirmPassword) {
