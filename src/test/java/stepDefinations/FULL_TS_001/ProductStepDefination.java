@@ -206,8 +206,8 @@ public class ProductStepDefination extends OptionsMethods {
     public void verifies_that_product_features_such_as_size_color_and_quantity_are_not_visible() {
         //Assert.assertTrue(us01_02_03Page.sizeFirstProduct.isEnabled());
         // Assert.assertTrue(us01_02_03Page.quantityFirstProduct.isEnabled());
-        Assert.assertTrue("Size görünmemeli", us01_02_03Page.sizeList.isEmpty());
-        Assert.assertTrue("Color görünmemeli", us01_02_03Page.colorList.isEmpty());
+        Assert.assertTrue("Size görünmemeli", productPage.sizeList.isEmpty());
+        Assert.assertTrue("Color görünmemeli", productPage.colorList.isEmpty());
         Assert.assertTrue("Quantity görünmemeli", us01_02_03Page.quantityList.isEmpty());
         LoggerHelper.info("Verifies that product features such as size, color, and quantity are NOT visible");
 
