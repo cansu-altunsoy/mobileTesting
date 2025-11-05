@@ -65,11 +65,11 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User clicks on the Wishlist tab and Verifies page button is Sign In")
     public void user_clicks_on_the_wishlist_tab_and_verifies_page_button_is_sign_ın() {
         ReusableMethods.wait(3);
-        us01_02_03Page.wishlistTextElement.click();
+        productPage.wishlistTextElement.click();
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.signInTextElement.isDisplayed());
+        Assert.assertTrue(productPage.signInTextElement.isDisplayed());
         ReusableMethods.wait(3);
-        us01_02_03Page.backButton.click();
+        productPage.backButton.click();
         ReusableMethods.wait(3);
         LoggerHelper.info("User clicks on the Wishlist tab and Verifies page button is Sign In");
     }
