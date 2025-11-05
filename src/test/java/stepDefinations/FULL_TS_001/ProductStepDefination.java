@@ -100,10 +100,10 @@ public class ProductStepDefination extends OptionsMethods {
         Assert.assertTrue(productPage.homepageSearchBoxElement.isDisplayed());
         ReusableMethods.wait(3);
         // Tıkla
-        us01_02_03Page.homepageSearchBoxElement.click();
+        productPage.homepageSearchBoxElement.click();
         ReusableMethods.wait(3);
         // Yazı gönder (standart yöntem)
-        us01_02_03Page.searchBoxElement.sendKeys(string);
+        productPage.searchBoxElement.sendKeys(string);
         ReusableMethods.wait(5);
         actions.sendKeys(Keys.ENTER).perform();
         ReusableMethods.wait(5);
@@ -112,7 +112,7 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("Verifies that search results are displayed")
     public void verifies_that_search_results_are_displayed() {
         ReusableMethods.wait(5);
-        Assert.assertTrue(us01_02_03Page.aramaSonucuCikanElement.isDisplayed());
+        Assert.assertTrue(productPage.aramaSonucuCikanElement.isDisplayed());
         LoggerHelper.info("Verifies that search results are displayed");
     }
 
