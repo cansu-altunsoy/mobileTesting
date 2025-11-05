@@ -76,9 +76,9 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User clicks on the Profile tab and Verifies page title is My Profile")
     public void user_clicks_on_the_profile_tab_and_verifies_page_title_is_my_profile() {
         ReusableMethods.wait(3);
-        us01_02_03Page.profileTextElement.click();
+        productPage.profileTextElement.click();
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.infoProfileTextElement.isDisplayed());
+        Assert.assertTrue(productPage.infoProfileTextElement.isDisplayed());
         ReusableMethods.wait(3);
         LoggerHelper.info("User clicks on the Profile tab and Verifies page title is My Profile");
     }
@@ -208,7 +208,7 @@ public class ProductStepDefination extends OptionsMethods {
         // Assert.assertTrue(us01_02_03Page.quantityFirstProduct.isEnabled());
         Assert.assertTrue("Size görünmemeli", productPage.sizeList.isEmpty());
         Assert.assertTrue("Color görünmemeli", productPage.colorList.isEmpty());
-        Assert.assertTrue("Quantity görünmemeli", us01_02_03Page.quantityList.isEmpty());
+        Assert.assertTrue("Quantity görünmemeli", productPage.quantityList.isEmpty());
         LoggerHelper.info("Verifies that product features such as size, color, and quantity are NOT visible");
 
 
