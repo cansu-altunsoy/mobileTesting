@@ -85,9 +85,9 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User clicks on the Cart tab and Verifies page title is My Cart")
     public void user_clicks_on_the_cart_tab_and_verifies_page_title_is_my_cart() {
         ReusableMethods.wait(3);
-        us01_02_03Page.addCartTextElement.click();
+        productPage.addCartTextElement.click();
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.shoppingcartTextElement.isDisplayed());
+        Assert.assertTrue(productPage.shoppingcartTextElement.isDisplayed());
         ReusableMethods.wait(3);
         LoggerHelper.info("User clicks on the Cart tab and Verifies page title is My Cart");
     }
@@ -97,7 +97,7 @@ public class ProductStepDefination extends OptionsMethods {
     public void user_clicks_the_search_textbox_and_types(String string) {
         // clickAndSendKeys(us01_02_03Page.homepageSearchBoxElement,string);
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.homepageSearchBoxElement.isDisplayed());
+        Assert.assertTrue(productPage.homepageSearchBoxElement.isDisplayed());
         ReusableMethods.wait(3);
         // Tıkla
         us01_02_03Page.homepageSearchBoxElement.click();
