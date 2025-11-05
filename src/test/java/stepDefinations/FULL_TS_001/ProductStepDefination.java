@@ -138,9 +138,9 @@ public class ProductStepDefination extends OptionsMethods {
         ReusableMethods.wait(5);
         Assert.assertTrue(productPage.sizeFirstProduct.isDisplayed());
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.quantityFirstProduct.isDisplayed());
+        Assert.assertTrue(productPage.quantityFirstProduct.isDisplayed());
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.addToCartButton.isDisplayed());
+        Assert.assertTrue(productPage.addToCartButton.isDisplayed());
         ReusableMethods.wait(3);
         LoggerHelper.info("Viewing product details");
     }
@@ -148,14 +148,14 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User clicks on the product with description {string}")
     public void user_clicks_on_the_product_with_description(String string) {
         ReusableMethods.wait(3);
-        us01_02_03Page.firstProductElement.click();
+        productPage.firstProductElement.click();
         LoggerHelper.info("Viewing product details");
     }
 
     @Given("Verifies that size options are visible and selectable")
     public void verifies_that_size_options_are_visible_and_selectable() {
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.sizeFirstProduct.isDisplayed());
+        Assert.assertTrue(productPage.sizeFirstProduct.isDisplayed());
         LoggerHelper.info("Verifies that quantity options are visible and selectable");
     }
 
