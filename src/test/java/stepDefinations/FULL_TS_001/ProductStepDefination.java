@@ -162,42 +162,42 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User selects size {string}")
     public void user_selects_size(String string) {
         ReusableMethods.wait(3);
-        us01_02_03Page.mSizeFirstProduct.click();
+        productPage.mSizeFirstProduct.click();
         LoggerHelper.info("Viewing product details");
     }
 
     @Given("Verifies that quantity options are visible and selectable")
     public void verifies_that_quantity_options_are_visible_and_selectable() {
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.quantityFirstProduct.isDisplayed());
+        Assert.assertTrue(productPage.quantityFirstProduct.isDisplayed());
         LoggerHelper.info("Verifies that quantity options are visible and selectable");
     }
 
     @Given("User selects quantity {string}")
     public void user_selects_quantity(String string) {
         ReusableMethods.wait(3);
-        us01_02_03Page.plusFirstProduct.click();
+        productPage.plusFirstProduct.click();
         LoggerHelper.info("Viewing product details");
     }
 
     @Given("Verifies that the {string} button is visible and active")
     public void verifies_that_the_button_is_visible_and_active(String string) {
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.addToCartButton.isDisplayed());
+        Assert.assertTrue(productPage.addToCartButton.isDisplayed());
         LoggerHelper.info("Viewing product details");
     }
 
     @Given("User clicks on the {string} button")
     public void user_clicks_on_the_button(String string) {
         ReusableMethods.wait(3);
-        us01_02_03Page.addToCartButton.click();
+        productPage.addToCartButton.click();
         LoggerHelper.info("Viewing product details");
     }
 
     @Given("Verifies that the item is added to the cart")
     public void verifies_that_the_item_is_added_to_the_cart() {
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.shoppingcartTextElement.isDisplayed());
+        Assert.assertTrue(productPage.shoppingcartTextElement.isDisplayed());
         LoggerHelper.info("Verifies that the item is added to the cart");
     }
 
