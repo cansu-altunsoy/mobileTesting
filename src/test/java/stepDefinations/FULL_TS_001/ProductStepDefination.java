@@ -4,6 +4,7 @@ import io.cucumber.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
+import pages.ProductPage;
 import pages.US01_02_03Page;
 import utilities.LoggerHelper;
 import utilities.OptionsMethods;
@@ -16,7 +17,7 @@ import static drivers.Driver.quitAppiumDriver;
 public class ProductStepDefination extends OptionsMethods {
 
     Actions actions = new Actions(getAppiumDriver());
-    US01_02_03Page us01_02_03Page = new US01_02_03Page();
+    ProductPage productPage = new ProductPage();
     LoggerHelper loggerHelper = new LoggerHelper();
 
 
@@ -29,13 +30,13 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User Verifies page title logo")
     public void verifies_page_title_logo() {
         ReusableMethods.wait(5);
-        Assert.assertTrue(us01_02_03Page.logoElement.isDisplayed());
+        Assert.assertTrue(productPage.logoElement.isDisplayed());
         LoggerHelper.info("User Verifies page title logo");
     }
     @Given("Verifies that bottom bar links are visible")
     public void verifies_that_bottom_bar_links_are_visible() {
         ReusableMethods.wait(5);
-        Assert.assertTrue(us01_02_03Page.altBar.isDisplayed());
+        Assert.assertTrue(productPage.altBar.isDisplayed());
         ReusableMethods.wait(5);
         LoggerHelper.info("Verifies that bottom bar links are visible");
     }
@@ -45,9 +46,9 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User clicks on the Home tab and Verifies page title is Home")
     public void user_clicks_on_the_home_tab_and_verifies_page_title_is_home() {
         ReusableMethods.wait(3);
-        us01_02_03Page.homeTextElement.click();
+        productPage.homeTextElement.click();
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.homeTextElement.isDisplayed());
+        Assert.assertTrue(productPage.homeTextElement.isDisplayed());
         ReusableMethods.wait(3);
         LoggerHelper.info("User clicks on the Home tab and Verifies page title is Home");
     }
