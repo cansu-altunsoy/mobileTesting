@@ -56,9 +56,9 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("User clicks on the Category tab and Verifies page title is Men")
     public void user_clicks_on_the_category_tab_and_verifies_page_title_is_men() {
         ReusableMethods.wait(3);
-        us01_02_03Page.categoryTextElement.click();
+        productPage.categoryTextElement.click();
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.menButton.isDisplayed());
+        Assert.assertTrue(productPage.menButton.isDisplayed());
         ReusableMethods.wait(3);
         LoggerHelper.info("User clicks on the Category tab and Verifies page title is Men");
     }
