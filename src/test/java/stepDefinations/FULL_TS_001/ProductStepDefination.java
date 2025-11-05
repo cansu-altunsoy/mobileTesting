@@ -119,14 +119,14 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("Verifies that {string} message is displayed")
     public void verifies_that_message_is_displayed(String string) {
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.sifirSonucuCikanElement.isDisplayed());
+        Assert.assertTrue(productPage.sifirSonucuCikanElement.isDisplayed());
         LoggerHelper.info("Viewing search results");
     }
     // US_03---------------------------------------------------------------------1
     @Given("Verifies that products are visible on the homepage")
     public void verifies_that_products_are_visible_on_the_homepage() {
         ReusableMethods.wait(3);
-        Assert.assertTrue(us01_02_03Page.urunlerinTumunuGosterElement.isDisplayed());
+        Assert.assertTrue(productPage.urunlerinTumunuGosterElement.isDisplayed());
         ReusableMethods.wait(3);
         LoggerHelper.info("Verifies that products are visible on the homepage");
     }
@@ -134,9 +134,9 @@ public class ProductStepDefination extends OptionsMethods {
     @Given("Verifies that product features such as size, color, and quantity are visible for selection")
     public void verifies_that_product_features_such_as_size_color_and_quantity_are_visible_for_selection() {
         ReusableMethods.wait(5);
-        us01_02_03Page.firstProductElement.click();
+        productPage.firstProductElement.click();
         ReusableMethods.wait(5);
-        Assert.assertTrue(us01_02_03Page.sizeFirstProduct.isDisplayed());
+        Assert.assertTrue(productPage.sizeFirstProduct.isDisplayed());
         ReusableMethods.wait(3);
         Assert.assertTrue(us01_02_03Page.quantityFirstProduct.isDisplayed());
         ReusableMethods.wait(3);
