@@ -5,7 +5,6 @@ import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import pages.ProductPage;
-import pages.US01_02_03Page;
 import utilities.LoggerHelper;
 import utilities.OptionsMethods;
 import utilities.ReusableMethods;
