@@ -155,6 +155,7 @@ public class AdressPage {
 
         driver.perform(Collections.singletonList(scroll));
     }
+
     public void koordinatTiklamaMethodu(int x, int y) {
         AndroidDriver driver = (AndroidDriver) getAppiumDriver();
 
@@ -175,6 +176,7 @@ public class AdressPage {
             driver.pressKey(new KeyEvent(AndroidKey.DEL));
         }
     }
+
 
     public void phoneTextBoxClickAndSendKeys(String phoneNumberLogin) {
         phoneTextBox.click();
