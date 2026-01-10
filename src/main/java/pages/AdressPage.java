@@ -182,6 +182,7 @@ public class AdressPage {
         phoneTextBox.click();
         phoneTextBox.sendKeys(phoneNumberLogin);
     }
+
     public void signInLoginClick() {
         signInLoginButton.click();
     }
